@@ -1,0 +1,99 @@
+:root {
+    --main-color: #8a1dff;
+    --secondary-color: #007631;
+    --font-size-large: 24px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #afffac;
+    margin: 20px;;
+}
+
+header {
+    color: var(--main-color);
+    font-size: var(--font-size-large);
+    text-align: center;
+}
+
+footer {
+    color: grey;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7px;
+
+}
+
+.flex-item1{
+    background-color: var(--secondary-color);
+    padding: 47px;
+    width: 247px;
+    color: white;
+    text-align: center;
+}
+
+.flex-item2{
+    background-color: var(--secondary-color);
+    padding: 90px;
+    width: 247px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.flex-item3{
+    background-color: var(--secondary-color);
+    padding: 32px;
+    width: 247px;
+    color: white;
+    text-align: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    margin-top: 20px;
+}
+
+.grid-item{
+    background-color: rgb(133, 78, 184);
+    padding: 20px;
+    text-align: center;
+    color: white;    
+}
+
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
+
+.relative-container{
+    position: relative;
+    background-color: rgb(222, 190, 255);
+    padding: 40px;
+    margin-top: 47px;
+}
+
+.absolute-box{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: rgba(68, 255, 0, 0.5);
+    color: black;
+    padding: 5px;
+}
